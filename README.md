@@ -1,1 +1,1 @@
-# rsschool-cv
+https://UdiasR.github.io/rsschool-cv/
