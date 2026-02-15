@@ -1,3 +1,106 @@
-body{
-    background-color: black;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    margin-top: 15px;
+}
+
+pre {
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin: 8px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+#work-experience {
+    margin: 20px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project a {
+    color: blue;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+
+
+#education,
+#english {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
 }
